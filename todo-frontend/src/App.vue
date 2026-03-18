@@ -56,7 +56,7 @@ onMounted(fetchTasks)
   <div class="min-h-screen px-4 py-10" style="background-color: #2c2c2c">
     <div class="max-w-lg mx-auto">
 
-      <!-- Header -->
+
       <div class="flex items-center justify-between mb-10">
         <div class="flex items-center gap-2">
           <Lightbulb class="w-5 h-5" style="color: #0072BC" />
@@ -64,7 +64,7 @@ onMounted(fetchTasks)
         </div>
       </div>
 
-      <!-- Formulár -->
+
       <div class="rounded-2xl p-5 mb-8" style="background-color: #383838">
         <input
           v-model="newTitle"
@@ -87,12 +87,12 @@ onMounted(fetchTasks)
         </button>
       </div>
 
-      <!-- Prázdny stav -->
+
       <div v-if="tasks.length === 0" class="text-center py-16 text-sm" style="color: #555">
         Žiadne úlohy
       </div>
 
-      <!-- Tasky -->
+
       <div
         v-for="task in tasks"
         :key="task.id"
@@ -101,7 +101,7 @@ onMounted(fetchTasks)
           ? 'background-color: #323232; border-color: #3a3a3a'
           : 'background-color: #383838; border-color: #0072BC33'"
       >
-        <!-- Edit mode -->
+  
         <div v-if="editingTask && editingTask.id === task.id">
           <input
             v-model="editingTask.title"
@@ -119,32 +119,37 @@ onMounted(fetchTasks)
           </div>
         </div>
 
-        <!-- View mode -->
         <div v-else class="flex items-start justify-between gap-3">
           <div class="flex-1 min-w-0">
             <p
-              class="text-sm font-medium break-words"
-              :class="task.completed ? 'line-through' : 'text-white'"
-              :style="task.completed ? 'color: #555' : ''"
-            >{{ task.title }}</p>
-            <p v-if="task.description" class="text-xs mt-0.5 break-words" style="color: #888">{{ task.description }}</p>
+                class="text-sm font-medium mb-0.5 transition-colors"
+                :class="task.completed ? 'line-through text-[#555]' : 'text-white'"
+                style="word-wrap: break-word; overflow-wrap: anywhere;"
+              >
+                {{ task.title }}
+              </p>
+              <p v-if="task.description" 
+                class="text-xs text-[#888] mb-1.5"
+                style="word-wrap: break-word; overflow-wrap: anywhere;"
+              >
+                {{ task.description }}
+              </p>
             <div class="flex items-center gap-1 mt-1.5 text-xs" style="color: #555">
               <Clock class="w-3 h-3" />
               <span>{{ formatDateTime(task.created_at) }}</span>
             </div>
           </div>
 
-          <!-- Ikonky -->
           <div class="flex items-center gap-1 shrink-0">
             <button @click="toggleComplete(task)" class="group p-1.5 rounded-lg transition" style="hover:background-color:#2c2c2c">
-              <CheckCircle v-if="!task.completed" class="w-5 h-5 transition" style="color: #444" onmouseover="this.style.color='#22c55e'" onmouseout="this.style.color='#444'" />
-              <RotateCcw v-else class="w-5 h-5 transition" style="color: #444" onmouseover="this.style.color='#22c55e'" onmouseout="this.style.color='#444'" />
+              <CheckCircle v-if="!task.completed" class="w-5 h-5 transition" style="color: #fff" onmouseover="this.style.color='#22c55e'" onmouseout="this.style.color='#fff'" />
+              <RotateCcw v-else class="w-5 h-5 transition" style="color: #444" onmouseover="this.style.color='#22c55e'" onmouseout="this.style.color='#fff'" />
             </button>
             <button @click="startEdit(task)" class="group p-1.5 rounded-lg transition">
-              <Pencil class="w-5 h-5 transition" style="color: #444" onmouseover="this.style.color='#eab308'" onmouseout="this.style.color='#444'" />
+              <Pencil class="w-5 h-5 transition" style="color: #fff" onmouseover="this.style.color='#eab308'" onmouseout="this.style.color='#fff'" />
             </button>
             <button @click="deleteTask(task.id)" class="group p-1.5 rounded-lg transition">
-              <Trash2 class="w-5 h-5 transition" style="color: #444" onmouseover="this.style.color='#ef4444'" onmouseout="this.style.color='#444'" />
+              <Trash2 class="w-5 h-5 transition" style="color: #fff" onmouseover="this.style.color='#ef4444'" onmouseout="this.style.color='#fff'" />
             </button>
           </div>
         </div>
