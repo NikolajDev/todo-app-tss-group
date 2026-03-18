@@ -59,6 +59,7 @@ and if you not sure that you will do this tasks again you can click complete (ti
 
 
 also here is the repo that is a learning repo of Laravel by tutorial on their website:
-https://github.com/NikolajDev/ProgrammingCachyOS/tree/main/LearningProject
+**Tutorial:** [Official Laravel Documentation](https://laravel.com/docs/11.x/installation)  
+**Source:** [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white)](https://github.com/NikolajDev/LearningProject)
 
 Thank you for visiting this repository!
