@@ -58,4 +58,7 @@ and if you not sure that you will do this tasks again you can click complete (ti
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/ac410893-3219-46ae-9e43-f0832db7230d" />
 
 
+also here is the repo that is a learning repo of Laravel by tutorial on their website:
+https://github.com/NikolajDev/ProgrammingCachyOS/tree/main/LearningProject
+
 Thank you for visiting this repository!
