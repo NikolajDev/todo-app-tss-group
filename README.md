@@ -9,15 +9,17 @@ Looks like
 
 ```
 {
-   task1 {
-    id: ....,
-    name: ...,
-    another_key: another_value,
-  },
-   task2 {
-    .: ..,
-    .: ..,
-  }..
+   tasks [
+      task1 {
+       id: ....,
+       name: ...,
+       another_key: another_value,
+     },
+      task2 {
+       .: ..,
+       .: ..,
+     }..
+   ]
 }
 ```
 
