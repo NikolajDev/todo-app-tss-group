@@ -50,6 +50,7 @@ If you completed the task and you want it to delete just the trash bin.
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/28541e33-ea02-47ef-811d-2c97806800d9" />
 
 after clicking on the bin
+<br>
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/d17b09da-015c-435b-a7c4-794d53b3b065" />
 
 and if you not sure that you will do this tasks again you can click complete (tick), and you will have an option of making it again like on these 2 pictures
