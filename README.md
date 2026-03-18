@@ -27,6 +27,7 @@ I use AI but mainly, but I also look at the code understadning it, how does the 
 
 # Create Task
 
+<p align="center">
 When creating tasks, you will have a  bolder text as a title and normal text for the "description"
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/625c80c7-3d46-4702-a601-75a3fde91509" />
@@ -35,19 +36,19 @@ When the task is complete you will notice the text-dectoration changes, to line-
 task is done 
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/823deba3-fb16-487f-8ee6-6ddc4e13f778" />
-
+</p>
 
 # Edit
-
+<p align="center">
 You can make mistakes, so you will be able to change anyhting title or description
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/dbb72f20-3b13-4c88-adaa-5481b6a78da6" />
 
 No matter how long the text will be the CSS will take care for a good UI, using the flex display, and the word-breaks automatically when the text line reaches the width of the parents width (p) 
-
+</p>
 
 # Delete
-
+<p align="center">
 If you completed the task and you want it to delete just the trash bin.
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/28541e33-ea02-47ef-811d-2c97806800d9" />
 
@@ -59,10 +60,13 @@ and if you not sure that you will do this tasks again you can click complete (ti
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/1d354781-7db3-4d71-a548-91269f1f1180" />
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/ac410893-3219-46ae-9e43-f0832db7230d" />
+</p>
 
 
+<p align="center">
 also here is the repo that is a learning repo of Laravel by tutorial on their website:
 **Tutorial:** [Official Laravel Documentation](https://laravel.com/docs/11.x/installation)  
 **Source:** [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white)](https://github.com/NikolajDev/LearningProject)
 
 Thank you for visiting this repository!
+</p>
