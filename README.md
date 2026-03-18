@@ -21,7 +21,7 @@ Looks like
 }
 ```
 
-I use AI but mainly, but I also look at the code understadning it, how does the REST API works, what are the best practices, what is MVC model, and trying to learn as much as I can. I am also trying to managing the tasks from the University so I do not have so much time, Right now I am focues on learning laravel and vue.js and on side is to keep up on my UNI.
+I use AI but mainly, but I also look at the code understadning it, how does the REST API works, what are the best practices, what is MVC model, and trying to learn as much as I can. I am also trying to managing the tasks from the University so I do not have so much time, Right now I am focues on learning laravel and vue.js and on side is to keep with my MUNI lectures and tasks from the UNI.
 
 # Create Task
 
